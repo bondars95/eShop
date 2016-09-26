@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="defaultTemplate" template="/WEB-INF/views/defaultTemplate.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp" />
+<!-- 		<put-attribute name="loginForm" value="/WEB-INF/views/tiles/login.jsp" /> -->
+		<put-attribute name="menu" value="/WEB-INF/views/tiles/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" />
+	</definition>
+
+	<!-- Definition for views -->
+
+	<definition name="index" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/index.jsp" />
+	</definition>
+	
+	<definition name="goods" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/goods.jsp" />
+	</definition>
+
+	<definition name="newProduct" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/newProduct.jsp" />
+	</definition>
+
+	<definition name="showProduct" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/showProduct.jsp" />
+	</definition>
+
+	<definition name="basket" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/basket.jsp" />
+	</definition>
+
+	<definition name="successfullPayment" extends="defaultTemplate">
+		<put-attribute name="body"
+			value="/WEB-INF/views/successfullPayment.jsp" />
+	</definition>
+
+	<definition name="signup" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/signup.jsp" />
+	</definition>
+	
+	<definition name="adminProducts" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/adminProducts.jsp" />
+	</definition>
+	
+	<definition name="adminOrders" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/adminOrders.jsp" />
+	</definition>
+	
+	<definition name="adminUsers" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/adminUsers.jsp" />
+	</definition>
+	
+	<definition name="newUser" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/newUser.jsp" />
+	</definition>
+
+	<definition name="Tree" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/Tree.jsp" />
+	</definition>
+	
+	<definition name="newCategory" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/newCategory.jsp" />
+	</definition>
+	
+	<definition name="orderInfo" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/orderInfo.jsp" />
+	</definition>
+	
+	<definition name="newOrderItem" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/newOrderItem.jsp" />
+	</definition>
+	
+	<definition name="newOrder" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/newOrder.jsp" />
+	</definition>
+	
+	<definition name="newArticle" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/newArticle.jsp" />
+	</definition>
+
+	<definition name="articles" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/articles.jsp" />
+	</definition>
+	
+	<definition name="userArticle" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/user/userArticle.jsp" />
+	</definition>
+
+	<definition name="adminArticles" extends="defaultTemplate">
+		<put-attribute name="body" value="/WEB-INF/views/admin/adminArticles.jsp" />
+	</definition>
+	
+</tiles-definitions>
