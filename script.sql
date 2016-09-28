@@ -1,7 +1,6 @@
 CREATE DATABASE shopdb;
 create user 'eclipse'  IDENTIFIED BY 'eclipse_1';
 GRANT ALL PRIVILEGES ON * . * TO 'eclipse';
-
 USE shopdb;
 
 CREATE TABLE USERS(
