@@ -1,5 +1,7 @@
 # taskSombra
 
+video presentation: https://drive.google.com/open?id=0B5izZv114XzEWVJ2RExRSC1va2s
+
 ---Download eShopImages.zip unzip it somewhere outside the project directory.
 ---Change path to images folder:
 --com.eshop.main.Picture (line: 16)
