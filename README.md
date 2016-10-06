@@ -1,4 +1,4 @@
-# taskSombra
+# eShop
 
 video presentation: https://drive.google.com/open?id=0B5izZv114XzEWVJ2RExRSC1va2s
 
